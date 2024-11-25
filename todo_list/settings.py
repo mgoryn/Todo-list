@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+pj3#xubj5wc4c&b5uap@h2fppk-mfxr@@bgitc)lilo@d%&&i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1:8000/"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "todolist"
 ]
 
 MIDDLEWARE = [
@@ -106,7 +107,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Kiev'
+
 
 USE_I18N = True
 
